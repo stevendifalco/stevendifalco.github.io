@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>CV</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Steven DiFalco</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-tree"></span>
+     
+    About me
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-search"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="cv.html">
+    <span class="fa fa-file-pdf-o"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:stevendifalco@gmail.com">
+    <span class="fa fa-envelope-o"></span>
+     
+    Contact me
+  </a>
+</li>
+<li>
+  <a href="https://github.com/stevendifalco">
+    <span class="fa fa-github"></span>
+     
+    GitHub
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">CV</h1>
+
+</div>
+
+
+<p><strong>Steven DiFalco</strong><br />
+<em>Curriculum vitea</em></p>
+<p>Graduate Student, Department of Natural Resources and the Environment University of Connecticut</p>
+<div id="education" class="section level2">
+<h2>Education</h2>
+<p>2018 – Present <strong>University of Connecticut</strong>, Storrs, CT</p>
+<blockquote>
+<p>MS, <em>Human Dimensions of Roadside Vegetation Management</em>, Advisor: Dr. Anita Morzillo</p>
+</blockquote>
+<p>2009 – 2013 <strong>SUNY New Paltz</strong>, New Paltz, NY</p>
+<blockquote>
+<p>BS, <em>Organismal/Environmental Biology</em>, Advisor: Dr. David Richardson</p>
+</blockquote>
+</div>
+<div id="career" class="section level2">
+<h2>Career</h2>
+<p>2013 – 2015 <strong>Postdoctoral Research Assistant</strong>, University of Connecticut, Storrs, CT</p>
+<blockquote>
+<p>Carry out research duties on NSF Dimensions of Biodiversity project “Parallel Evolutionary Radiations in Protea and Pelargonium in the Greater Cape Floristic Region.”</p>
+<p>Supervisor: Dr. John Silander, Jr.</p>
+</blockquote>
+<p>2009 – 2012 <strong>Research Assistant</strong>, Stony Brook University, Stony Brook, NY</p>
+<blockquote>
+<p>Integrated climate change and threatened bird population modeling to carry out impact assessments and inform land management decisions on Florida military installations.</p>
+<p>Supervisor: Dr. H. Resit Akçakaya</p>
+</blockquote>
+<p>2009 <strong>Graduate Assistant</strong>, Stony Brook University, Stony Brook, NY</p>
+<blockquote>
+<p>Assisted in organizing and carrying out field surveys for long-term monitoring of Long Island Pitch Pine demography.</p>
+<p>Supervisor: Dr. Jessica Gurevitch</p>
+</blockquote>
+<p>2008 – 2009 <strong>Research Consultant</strong>, Applied Biomathematics, Setauket, NY</p>
+<p>Developed and applied models of population level effects of aquatic toxins.</p>
+<p>Supervisor: Dr. Lev Ginzburg</p>
+<p>2005 – 2007 <strong>Research Assistant</strong>, P.A.I.N. Group, McLean Hospital, Belmont, MA</p>
+<blockquote>
+<p>Analyze large datasets from neuroimaging research studies on neurological pain disorders and maintain computation systems for P.A.I.N. research group.</p>
+<p>Supervisor: Dr. David Borsook</p>
+</blockquote>
+<p><strong>Publications (peer-reviewed Ecology)</strong></p>
+<p><strong>Aiello-Lammens, M.E.</strong>, Boria, R.A, Radosavljevic, A., Anderson, R.P. 2014. <em>spThin: An R package for spatial thinning of species occurrence records for use in ecological niche models</em>. Ecography. In Press.</p>
+<p>Pearson, R.G., Stanton, J.C., Shoemaker, K.T., <strong>Aiello-Lammens, M. E.</strong>, Ersts, P.J., Horning, N., Fordham, D.A., Raxworthy, C.J., Ryu, H.Y., Mcnees, J., Akçakaya, H.R. 2014 <em>Life history and spatial traits predict extinction risk due to climate change</em>. Nature Climate Change 4: 217–221.</p>
+<p>Cahill, A.E.*, <strong>Aiello-Lammens, M.E.*</strong>, Fisher-Reid, M.C., Hua, X., Karanewsky, C.J., Ryu, H.Y., Sbeglia, G.C., Spagnolo, F., Waldron, J.B., and Wiens, J.J. 2014. <em>A review of the causes of warm-edge range limits: proximate factors and implications for climate change.</em> Journal of Biogeography 41: 429-442. (* These authors contributed equally to this study)</p>
+<p>Watts, M.J., Fordham, D.A., Akçakaya, H.R., <strong>Aiello-Lammens, M.E.</strong>, and Brook, B.W. 2013. <em>Tracking metapopulation range margin changes using geographical centroids of patches weighted by population size and density</em>. Ecological Modeling 269: 61-69.</p>
+<p>Fordham, D.A., Mellin, C., Russel, B., Akçakaya, H.R., Bradshaw, C., <strong>Aiello-Lammens, M.E.</strong>, Caley, M., Connell, S., Mayfield, S., Shepherd, S., Brook, B.W. 2013. <em>Population dynamics can be more important than physiological limits for determining range shifts under climate change</em>. Global Change Biology 19(10): 3224-3237.</p>
+<p>Linhoss, A.C., Kiker, G.A., <strong>Aiello-Lammens, M.E.</strong>, Chu-Agor, M.L., Convertino, M., Muñoz-Carpena, R., Fischer, and R., Linkov, I. 2013. <em>Decision analysis for species preservation under sea-level rise</em>. Ecological Modelling 263: 264-272</p>
+<p>Cahill, A.,* <strong>Aiello-Lammens, M.E.*,</strong> Fisher-Reid, M.C., Hua, X., Karanewsky, C.J., Ryu, H.Y., Sbeglia, G.C., Spagnolo, F., Waldron, J.B., Warsi, O., and Wiens, J.J. 2013. <em>How does climate change cause extinction?</em> Proceedings of the Royal Society B 280: 20121890. (* These authors contributed equally to this study)</p>
+<p>Lowry, E., Rollinson, E.J., Laybourn, A., Scott, T., <strong>Aiello-Lammens, M.E.,</strong> Gray, S., Mickely, J., and Gurevitch, J. 2012. <em>Biological Invasions: a field synopsis, systematic review and database of the literature</em>. Ecology and Evolution 3(1):182-196.</p>
+<p><strong>Aiello-Lammens, M.E.,</strong> Chu-Agor, M. L., Convertino, M., Fischer, R., Linkov, I., and Akçakaya, H.R. 2011. <em>The impact of sea-level rise on Snowy Plovers in Florida: Integrating hydrological, habitat, and metapopulation models.</em> Global Change Biology 17(12): 3644-3654.</p>
+<p>Chu-Agor, M.L., Muñoz-Carpena, R., Kiker, G., <strong>Aiello-Lammens, M.E.</strong>, Akçakaya, H.R., Convertino, M., and Linkov, I. 2011. <em>Simulating the fate of Florida Snowy Plovers with sea-level rise: Exploring research and management priorities with a global uncertainty and sensitivity analysis perspective</em>. Ecological Modelling 224(1): 33-47.</p>
+<p><strong>Publications (peer-reviewed Neuroscience)</strong></p>
+<p>Moulton, E.A., Pendse, G., Morris, S., <strong>Aiello-Lammens, M.E.,</strong> Becerra, L.R., and Borsook, D. 2009. <em>Segmentally arranged somatotopy within the face representation of human primary somatosensory cortex</em>. Human Brain Mapping 30:757–765.</p>
+<p>Lebel, A., Becerra, L.R., Wallin, D., Moulton, E.A., Morris, S., Pendse, G., Jasciewicz, J., Stein, M., <strong>Aiello-Lammens, M.E.</strong>, Grant, E., Berde, C., and Borsook, D. 2008. <em>fMRI reveals distinct CNS processing during symptomatic and recovered complex regional pain syndrome in children</em>. Brain 131:1854–1879.</p>
+<p>Borsook, D., Moulton, E.A., Pendse, G., Morris, S., Cole, S.H., <strong>Aiello-Lammens. M.E.,</strong> Scrivani, S., and Becerra, L.R. 2007. <em>Comparison of evoked vs. spontaneous tics in a patient with trigeminal neuralgia (tic doloureux)</em>. Molecular Pain 3:34.</p>
+<p>Moulton, E.A., Pendse, G., Morris, S., Strassman, A., <strong>Aiello-Lammens, M.E.</strong>, Becerra, L.R., and Borsook, D. 2007. <em>Capsaicin-induced thermal hyperalgesia and sensitization in the human trigeminal nociceptive pathway: An fMRI study</em>. NeuroImage 35:1586–1600.</p>
+<p><strong>Publications (book chapters)</strong></p>
+<p>Convertino, M., Kiker, G.A., Chu-Agor, M.L., Muñoz-Carpena, R., Martinez, C.J., <strong>Aiello-Lammens, M.E.</strong>, Akçakaya, H.R., Linkov, I. 2011. <em>Integrated modeling to mitigate climate change risk due to sea-level rise: Imperiled shorebirds on Florida coastal military installations</em>. NATO Science for Peace and Security Series C: Environmental Security 4:433-464.</p>
+<p><strong>Publications (in review)</strong></p>
+<p>Merow, C. Allen, J.M., <strong>Aiello-Lammens, M.E.,</strong> Silander, J.A., Jr. 2014. <em>Minxent: Methods for using spatially explicit information in Maxent models of species’ ranges</em>. Global Ecology and Biogeography</p>
+<p><strong>Aiello-Lammens, M.E.</strong> and Akçakaya, H.R. <em>Global sensitivity analysis for impact assessments.</em> Conservation Biology</p>
+<p><strong>Publications (in preparation)</strong></p>
+<p><strong>Aiello-Lammens, M.E.,</strong> Merow, C., Kilroy, H., Euston-Brown, D., Slingsby, J., Silander, J.A., Jr.. <em>Processes of community composition in an environmentally heterogeneous, high biodiversity region</em></p>
+<p><strong>Aiello-Lammens, M.E.</strong> <em>Reconstructing the historical spread of</em> Frangula alnus <em>using herbarium records</em></p>
+<p>Ariori, C.,* <strong>Aiello-Lammens, M.E.</strong>, Silander, J.A. Jr.. <em>Plant invasion along an urban-to-rural gradient in northeast Connecticut</em> (*M.S. student mentee)</p>
+<p>Martinod, K.,* <strong>Aiello-Lammens, M.E.</strong>, Silander, J.A. Jr.. <em>Do Invasive Plant Species Have Different Niche Attributers Than Native Analogs? Insight from Functional Trait Analysis.</em> (*Undergraduate co-advisee)</p>
+<p><strong>Abstracts </strong></p>
+<p><strong>Aiello-Lammens, M.E.,</strong> Merow, C., Kilroy, H., Euston-Brown, D., Slingsby, J., Silander, J.A., Jr. 2014. <em>Processes of community composition in an environmentally heterogeneous, high biodiversity region.</em> Poster presentation. Graybill Conference on Modern Statistical Methods for Ecology. Fort Collins, Colorado.</p>
+<p><strong>Aiello-Lammens, M.E.,</strong> Akçakaya, H.R. 2013. <em>Global sensitivity analysis for impact assessments.</em> Oral presentation. Ecological Society of America, Minneapolis, Minnesota.</p>
+<p><strong>Aiello-Lammens, M.E.</strong> 2012. <em>Using herbaria records to examine the spread of the invasive woody plant Frangula alnus.</em> Poster presentation. Ecological Society of America, Portland, Oregon.</p>
+<p><strong>Aiello-Lammens, M.E.,</strong> Akçakaya, H.R., Fischer, R., Convertino, M., Chu-Agor, M. L., Martinez, M., and Linkov, I. 2011. <em>Integrated climate change and threatened bird population modeling to assess risks from changes in sea-level and weather patterns</em>. Oral presentation, International Congress for Conservation Biology, Edmonton, Alberta, Canada.</p>
+<p>Stanton, J.C., <strong>Aiello-Lammens, M.E.,</strong> and Akçakaya, H.R. 2009. <em>Relationship between abundance and range size trends in North American breeding birds.</em> Poster presentation, Ecological Society of America, Albuquerque, New Mexico.</p>
+<p><strong>Book Reviews</strong></p>
+<p><strong>Aiello-Lammens, M.E. </strong>2013. Review of <em>Maximum Entropy and Ecology: A Theory of Abundance, Distribution, and Energetics.</em> The Quarterly Review of Biology 88(2):133-134</p>
+<p><strong>Aiello-Lammens, M.E.</strong> 2012. Review of <em>Practical Computing for Biologists</em>. The Quarterly Review of Biology 87(4):372</p>
+<p><strong>Aiello-Lammens, M.E.</strong> 2010. Review of <em>A Primer of Ecology with R</em>. The Quarterly Review of Biology 85(3):350</p>
+<p><strong>Aiello-Lammens, M.E.</strong> 2009. Review of <em>Ecological Models and Data in R</em>. The Quarterly Review of Biology 84(3):288</p>
+<p><strong>Teaching Experience</strong></p>
+<p>Spring 2013 <strong>Teaching Assistant, BEE 552 – Biometry</strong></p>
+<blockquote>
+<p>Stony Brook University</p>
+</blockquote>
+<ul>
+<li><p>Prepare and deliver weekly two-hour sessions reviewing course material and homework assignments.</p></li>
+<li><p>Assist with writing exam questions.</p></li>
+<li><p>Grade homework assignments and exams.</p></li>
+</ul>
+<p>Fall 2012 <strong>Teaching Assistant, BIO 352 – Ecology Laboratory</strong></p>
+<p>Stony Brook University</p>
+<ul>
+<li><p>Assist in revision of lab exercises and development of new lab exercises.</p></li>
+<li><p>Independently run multiple lab sections throughout the semester.</p></li>
+<li><p>Prepare and deliver lecture material covering lab activities.</p></li>
+</ul>
+<p>Spring 2012 <strong>Invited Lecturer, Long Island Invasive Species Management Area Scientific Review Committee Cultivar Subcommittee</strong></p>
+<ul>
+<li>Developed and delivered a one-day short course introducing basic demographic modeling and applications to invasive species assessment and management.</li>
+</ul>
+<p>Spring 2011 <strong>Instructor, Short Course on R Software</strong></p>
+<p>Stony Brook University</p>
+<ul>
+<li>Developed material for a six-session short course on using the R software in ecology and evolution research for fellow graduate students.</li>
+</ul>
+<p>Spring 2009 <strong>Teaching Assistant, SSO 102 – Critical Issues in the Environment</strong></p>
+<p>Stony Brook University</p>
+<ul>
+<li><p>Assisted in development of course materials for First-year Seminar.</p></li>
+<li><p>Independently developed and lead multiple class meetings throughout the semester.</p></li>
+</ul>
+<p>Fall 2008 <strong>Lab Instructor, BIO 204 – Fundamentals of Scientific Inquiry</strong></p>
+<p>Stony Brook University</p>
+<ul>
+<li><p>Independently lead weekly three-hour lab sessions.</p></li>
+<li><p>Developed lectures to cover key material to facilitate successful labs.</p></li>
+</ul>
+<p>Spring 2008 <strong>Lab Instructor, BIO 356 – Applied Ecology and Conservation Biology </strong></p>
+<p>Stony Brook University</p>
+<ul>
+<li><p>Independently lead weekly three-hour lab sessions.</p></li>
+<li><p>Developed lecture material to cover key topics for weekly lab sections.</p></li>
+</ul>
+<p>Fall 2007 <strong>Teaching Assistant, BIO 150 – The Living World</strong></p>
+<p>Stony Brook University</p>
+<ul>
+<li><p>Facilitate active learning activities in large lecture course.</p></li>
+<li><p>Grade assignments and research papers.</p></li>
+</ul>
+<p><strong>Invited Talks</strong></p>
+<p>Mar. 2014 <em>Using integrated demographic and occurrence models to study invasive species</em>. Harvard Forest</p>
+<p>Dec. 2013 <em>Patterns and Processes of the Invasion of Frangula alnus: An Integrated Model Framework</em>. Suffolk County Community College</p>
+<p><strong>Awards, Fellowship, Scholarships</strong></p>
+<p>2013 Top Graduate Student Award, The Graduate School at Stony Brook University</p>
+<p>2010 Departmental Service Award, Department of Ecology and Evolution, Stony Brook University</p>
+<p>2009 George C. Williams Award, Department of Ecology and Evolution, Stony Brook University</p>
+<p>2007 – 2010 Presidential Recruitment Fellowship, Stony Brook University</p>
+<p><strong>Service</strong></p>
+<p>2014 – Software Carpentry Instructor</p>
+<p>2008 – 2013 Volunteer mechanic, Secretary, and President of Stony Brook University FreeWheel Bicycle Collective</p>
+<p>2010 – 2013 Graduate Student Representative to University Bicycle Use Committee</p>
+<p>2009 – 2011 Departmental Senator for Graduate Student Organization</p>
+<p>2010 – 2011 Graduate Student Representative to University Senate Campus Environment Committee</p>
+<p>2010 – 2011 Graduate Student Representative to Department of Ecology and Evolution Faculty</p>
+<p>2009 – 2010 Graduate Student Representative to University Senate Graduate Council</p>
+<p><strong>Professional Societies </strong></p>
+<p>Society for Conservation Biology (since 2008)</p>
+<p>Ecological Society of America (since 2007)</p>
+<p>Peer reviewer for Ecology Letters, PLoS ONE, BioScience, Global Change Biology, Global Ecology and Biogeography, Ecography, Ecological Modelling, Animal Conservation, Population Ecology, Journal of Mammology</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -4,11 +4,11 @@ navbar:
   title: "Steven DiFalco"                        
   type: inverse
   left:
-    - text: "Home"
-      icon: fa-home
+    - text: "About me"
+      icon: fa-tree
       href: index.html
-    - text: "About"
-      icon: fa-user 
+    - text: "Research"
+      icon: fa-search 
       href: about.html
     - text: "CV"
       icon: fa-file-pdf-o
