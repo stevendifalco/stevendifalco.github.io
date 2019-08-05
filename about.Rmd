@@ -1,5 +1,4 @@
 ---
-title: "about"
+title: "Research"
 ---
-
-# About my website afds
+#I am interested in the interactions between humans and natural resoruces
