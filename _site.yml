@@ -1,8 +1,26 @@
-name: "my-website"
+name: "Steven DiFalco"                             
+output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Steven DiFalco"                        
+  type: inverse
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "About"
+      icon: fa-user 
       href: about.html
+    - text: "CV"
+      icon: fa-file-pdf-o
+      href: cv.html
+  right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:stevendifalco@gmail.com                   
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/stevendifalco       
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
