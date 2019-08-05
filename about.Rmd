@@ -1,6 +1,5 @@
 ---
 title: "about"
-output: html_document
 ---
 
 # About my website
