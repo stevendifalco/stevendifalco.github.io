@@ -7,3 +7,6 @@ output: html_document
 ### 1) Using the Bokeh package in Python to visualize local trails and protected open space parcels. These are dynamic maps which can be zoomed into and scrolled around. Hovering over any given trail will provide the property name. Open space parcels will reveil parcel ID when hovered over.
 
 [Mansfield Town Trails and Protected Open Space](BokehMaps_080619.html)
+<br><br>
+
+### 2) I am interested in using iNaturalist data to understand distribution of species and what species are under represented by citizen scientists. 
