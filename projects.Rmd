@@ -1,0 +1,9 @@
+---
+title: "Other Projects"
+output: html_document
+---
+## There are mostly coding exercises that I have been working on to visulize data in different ways. 
+
+### 1) Using the Bokeh package in Python to visualize local trails and protected open space parcels. These are dynamic maps which can be zoomed into and scrolled around. Hovering over any given trail will provide the property name. Open space parcels will reveil parcel ID when hovered over.
+
+[Mansfield Town Trails and Protected Open Space](BokehMaps_080619.html)
