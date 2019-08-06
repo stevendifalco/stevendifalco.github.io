@@ -16,11 +16,14 @@ navbar:
   right:
     - text: "Contact me"
       icon: fa-envelope-o
-      href: mailto:stevendifalco@gmail.com                   
+      href: mailto:stevendifalco@gmail.com  
+    - text: "Twitter"
+      icon: fa-twitter
+      href: https://twitter.com/stevendifalco
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/stevendifalco       
 output:
   html_document:
     theme: cosmo
-    highlight: textmate
+    highlight: pygments
