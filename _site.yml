@@ -12,11 +12,13 @@ navbar:
       href: about.html
     - text: "Other Projects"
       icon: fa-book
-      href: projects.html 
+      href: projects.html
+    - text: "Photos"
+      icon: fa-camera
+      href: photos.html       
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html
-
   right:
     - text: "Contact me"
       icon: fa-envelope-o
