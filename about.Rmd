@@ -2,7 +2,7 @@
 title: "Research"
 ---
 <br>
-```{r echo=FALSE, out.extra='style="float:left; padding:10px"', out.width="400px"}
+```{r echo=FALSE, out.extra='style="float:left; padding:10px"', out.width="500px"}
 knitr::include_graphics("images/survey.png")
 ```
 <br>
@@ -13,19 +13,28 @@ knitr::include_graphics("images/survey.png")
 [Interview with Naturally@UConn](https://naturally.uconn.edu/2019/06/26/meet-graduate-student-steven-difalco/#)
 
 <br>
-<img id ="planting" src= "images/treeplanting.png" style="float:right; padding:10px", width ="400px" height ="auto">
+<img id ="planting" src= "images/treeplanting.png" style="float:right; padding:10px", width ="500px" height ="auto">
 
 <br>
 
 ### Invasive removal and habitat restoration
 #### I am interested in the way exotic invasive species affect local ecosystems, and best management practices to mitigate their impacts. One of the most important parts of land management is the reestablishment of native plant populations. Restoring and maintaining native plant populations is important for helping provide habitat for our native pollinators
 
+<br><br><br><br><br>
+```{r echo=FALSE, out.extra='style="float:left; padding:10px"', out.width="300px"}
+knitr::include_graphics("images/monarda.jpg")
+```
 <br><br><br>
 
-```{r echo=FALSE,, fig.align="default", fig.show="hold", out.width=c("50%","50%")}
+### Native plant species
+#### I enjoy harvesting seeds and propagating native plants for restoration projects. Species found in areas protected from deer are good exemplars of what should be protected and promoted elsewhere.
 
-knitr::include_graphics("images/flame.png")
-
-knitr::include_graphics("images/monarda.jpg")
+<br><br><br><br><br><br><br><br><br><br>
+```{r echo=FALSE, out.extra='style="float:right; padding:10px"', out.width="500px"}
+##fig.cap="Spring beauty andrena, photo by Paula Sharpe",
+knitr::include_graphics("images/andrea_paulaSharpe.jpg")
 
 ```
+
+### Native pollinators
+#### My management style has attempted to favor species which provide habitat and food for both generalists and specialist pollinator species. Spring beauty andrena bees only use spring beauty flowers so it's important to make sure to encourage and protect this plant species. Understanding what species are found where, and having a botanical record of occurances, is something important to have.
