@@ -2,14 +2,17 @@
 title: "Other Projects"
 output: html_document
 ---
-## There are mostly coding exercises that I have been working on to visulize data in different ways. 
+## 1) I have been helping with Joshua's Trust and the Town of Mansfield to develop an application in ArcGIS Online for local trail information. Pulling together town, state, and land trust trail to one place and provide useful information for those who would like to recreate in the Mansfield, CT. This project is still in progress, but an example of the trail mapper can be found below. 
 
-### 1) Using the Bokeh package in Python to visualize local trails and protected open space parcels. These are dynamic maps which can be zoomed into and scrolled around. Hovering over any given trail will provide the property name. Open space parcels will reveil parcel ID when hovered over.
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Mansfield_TrailMap_09092019" src="//https://arcgis.com/apps/View/index.html?appid=624855de80744c0f916567ecc662a7f1"></iframe></div>
+
+
+### 2) Using the Bokeh package in Python to visualize local trails and protected open space parcels. These are dynamic maps which can be zoomed into and scrolled around. Hovering over any given trail will provide the property name. Open space parcels will reveil parcel ID when hovered over.
 
 [Mansfield Town Trails and Protected Open Space](BokehMaps_080619.html)
 <br><br>
 
-### 2) I am interested in using iNaturalist data to understand distribution of species and what species are being represented by citizen scientists. There is an overwhelming amount of data collected everyday. Learning ways to utilize this data is important. I've been working on different ways to visualize iNat observations. Below are some preliminary results. I would like to understand if invasive species or native species are posted more often and where these observations occur; are there more observations near homes or protected lands? how far off trail do people go to make observations? 
+### 3) I am interested in using iNaturalist data to understand distribution of species and what species are being represented by citizen scientists. There is an overwhelming amount of data collected everyday. Learning ways to utilize this data is important. I've been working on different ways to visualize iNat observations. Below are some preliminary results. I would like to understand if invasive species or native species are posted more often and where these observations occur; are there more observations near homes or protected lands? how far off trail do people go to make observations? 
 
 ####Top 30 most common observations for 10 years of iNaturalist data, separated by native and invasive. It appears that many of top observed plants are abundant species throughout most of Connecticut and mostly deer-resistant species.
 
