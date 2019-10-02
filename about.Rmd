@@ -3,7 +3,7 @@ title: "Research"
 ---
 <br>
 ```{r echo=FALSE, out.extra='style="float:left; padding:10px"', out.width="500px"}
-knitr::include_graphics("images/survey.png")
+knitr::include_graphics("images/SurveyCrew.jpg")
 ```
 <br>
 

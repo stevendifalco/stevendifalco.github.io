@@ -31,5 +31,4 @@ navbar:
       href: https://github.com/stevendifalco       
 output:
   html_document:
-    theme: cosmo
-    highlight: pygments
+    rmdformats::material
