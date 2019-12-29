@@ -1,5 +1,4 @@
 ---
-title: "photos"
 output: html_document
 ---
 ##Rockefeller State Park Preserve

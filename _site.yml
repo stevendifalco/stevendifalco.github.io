@@ -31,7 +31,7 @@ navbar:
       href: https://twitter.com/stevendifalco
     - text: "GitHub"
       icon: fa-github
-      href: https://github.com/stevendifalco       
+      href: https://github.com/stevendifalco/TidyTuesday      
 output:
   html_document:
     rmdformats::material
