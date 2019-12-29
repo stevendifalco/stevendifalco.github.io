@@ -12,6 +12,9 @@ navbar:
       href: about.html
     - text: "Other Projects"
       icon: fa-book
+      href: OtherProjects.html
+    - text: "Trail Mapper"
+      icon: fa-book
       href: projects.html
     - text: "Photos"
       icon: fa-camera

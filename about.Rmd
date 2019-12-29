@@ -13,7 +13,7 @@ knitr::include_graphics("images/SurveyCrew.jpg")
 [Interview with Naturally@UConn](https://naturally.uconn.edu/2019/06/26/meet-graduate-student-steven-difalco/#)
 
 <br>
-<img id ="planting" src= "images/treeplanting.png" style="float:right; padding:10px", width ="500px" height ="auto">
+<img id ="planting" src= "images/treeplanting.png" style="float:left; padding:10px", width ="500px" height ="auto">
 
 <br>
 
@@ -30,7 +30,7 @@ knitr::include_graphics("images/monarda.jpg")
 #### I enjoy harvesting seeds and propagating native plants for restoration projects. Species found in areas protected from deer are good exemplars of what should be protected and promoted elsewhere.
 
 <br><br><br><br><br><br><br><br><br><br>
-```{r echo=FALSE, out.extra='style="float:right; padding:10px"', out.width="500px"}
+```{r echo=FALSE, out.extra='style="float:left; padding:10px"', out.width="500px"}
 ##fig.cap="Spring beauty andrena, photo by Paula Sharpe",
 knitr::include_graphics("images/andrea_paulaSharpe.jpg")
 

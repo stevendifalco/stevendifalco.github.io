@@ -1,0 +1,26 @@
+---
+title: "OtherProjects"
+author: "Steven DiFalco"
+date: "12/29/2019"
+output: html_document
+---
+
+### 2) Using the Bokeh package in Python to visualize local trails and protected open space parcels. These are dynamic maps which can be zoomed into and scrolled around. Hovering over any given trail will provide the property name. Open space parcels will reveil parcel ID when hovered over.
+
+[Mansfield Town Trails and Protected Open Space](BokehMaps_080619.html)
+<br><br>
+
+### 3) I am interested in using iNaturalist data to understand distribution of species and what species are being represented by citizen scientists. There is an overwhelming amount of data collected everyday. Learning ways to utilize this data is important. I've been working on different ways to visualize iNat observations. Below are some preliminary results. I would like to understand if invasive species or native species are posted more often and where these observations occur; are there more observations near homes or protected lands? how far off trail do people go to make observations? 
+
+####Top 30 most common observations for 10 years of iNaturalist data, separated by native and invasive. It appears that many of top observed plants are abundant species throughout most of Connecticut and mostly deer-resistant species.
+
+```{r echo=FALSE, out.extra='style="padding:10px"', out.width="500px"}
+knitr::include_graphics("images/Inat_30.jpeg")
+
+```
+<br>
+
+####Observations occured throughout most of the state during this 10 year period, with no apparent trend yet of invasive vs native plants. Of interest to me is the abundance of observations around specific areas, such as the UConn campus in the northeastern part of the state.
+```{r echo=FALSE, out.extra='style="padding:10px"', out.width="600px"}
+knitr::include_graphics("images/inatCT.jpeg")
+```
