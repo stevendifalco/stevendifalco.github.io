@@ -19,19 +19,18 @@ navbar:
     - text: "Photos"
       icon: fa-camera
       href: photos.html       
-    - text: "CV"
-      icon: fa-file-pdf-o
-      href: cv.html
-  right:
-    - text: "Contact me"
-      icon: fa-envelope-o
-      href: mailto:stevendifalco@gmail.com  
+    - text: "iNaturalist"
+      icon: fa-envira 
+      href: https://www.inaturalist.org/observations/sdifalco
     - text: "Twitter"
       icon: fa-twitter
       href: https://twitter.com/stevendifalco
     - text: "GitHub"
       icon: fa-github
-      href: https://github.com/stevendifalco/TidyTuesday      
+      href: https://github.com/stevendifalco/TidyTuesday target="_blank"  
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:stevendifalco@gmail.com
 output:
   html_document:
     rmdformats::material
