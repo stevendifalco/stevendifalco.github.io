@@ -3,7 +3,7 @@ output: html_document
 ---
 ##Rockefeller State Park Preserve
 
-```{r echo=FALSE, fig.cap=c("Crew 2016","Crew out in lake","Crew 2017", "Planting native plants after invasive removal in 2017", "Growth of natives in same site as above in 2019", "Spotted frittillary on spotted joepye", "Flame treating barberry stumps in 2017", "Bluebird eggs found in nest while monitoring boxes 2016"), out.extra="padding:10px", out.width="500px"}
+```{r echo=FALSE, fig.cap=c("Crew 2016","Crew out in lake","Crew 2017", "Planting native plants after invasive removal in 2017", "Growth of natives in same site as above in 2019", "Spotted frittillary on spotted joepye", "Flame treating barberry stumps in 2017", "Bluebird eggs found in nest while monitoring boxes 2016"), out.extra="padding:10px", out.width="500px", fig.align="center"}
 
 knitr::include_graphics("images/Crew16.jpg")
 

@@ -15,10 +15,13 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -70,6 +73,7 @@ h6 {
 }
 </style>
 
+<link rel="stylesheet" href="style.css" type="text/css" />
 
 
 
@@ -104,33 +108,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .dropdown-submenu {
   position: relative;
@@ -250,6 +254,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -257,6 +324,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -353,24 +430,38 @@ $(document).ready(function () {
 </div>
 
 
-<div id="using-the-bokeh-package-in-python-to-visualize-local-trails-and-protected-open-space-parcels.-these-are-dynamic-maps-which-can-be-zoomed-into-and-scrolled-around.-hovering-over-any-given-trail-will-provide-the-property-name.-open-space-parcels-will-reveil-parcel-id-when-hovered-over." class="section level3">
-<h3>1) Using the Bokeh package in Python to visualize local trails and protected open space parcels. These are dynamic maps which can be zoomed into and scrolled around. Hovering over any given trail will provide the property name. Open space parcels will reveil parcel ID when hovered over.</h3>
+<div id="bokeh--python-package" class="section level2">
+<h2>1) Bokeh- Python package</h2>
+<div id="using-the-bokeh-package-in-python-to-visualize-local-trails-and-protected-open-space-parcels.-these-are-dynamic-maps-which-can-be-zoomed-into-and-scrolled-around.-hovering-over-any-given-trail-will-provide-the-property-name.-open-space-parcels-will-reveil-parcel-id-when-hovered-over." class="section level4">
+<h4>Using the Bokeh package in Python to visualize local trails and protected open space parcels. These are dynamic maps which can be zoomed into and scrolled around. Hovering over any given trail will provide the property name. Open space parcels will reveil parcel ID when hovered over.</h4>
 <p><a href="BokehMaps_080619.html">Mansfield Town Trails and Protected Open Space</a> <br><br></p>
 </div>
-<div id="i-am-interested-in-using-inaturalist-data-to-understand-distribution-of-species-and-what-species-are-being-represented-by-citizen-scientists.-there-is-an-overwhelming-amount-of-data-collected-everyday.-learning-ways-to-utilize-this-data-is-important.-ive-been-working-on-different-ways-to-visualize-inat-observations.-below-are-some-preliminary-results.-i-would-like-to-understand-if-invasive-species-or-native-species-are-posted-more-often-and-where-these-observations-occur-are-there-more-observations-near-homes-or-protected-lands-how-far-off-trail-do-people-go-to-make-observations" class="section level3">
-<h3>2) I am interested in using iNaturalist data to understand distribution of species and what species are being represented by citizen scientists. There is an overwhelming amount of data collected everyday. Learning ways to utilize this data is important. I’ve been working on different ways to visualize iNat observations. Below are some preliminary results. I would like to understand if invasive species or native species are posted more often and where these observations occur; are there more observations near homes or protected lands? how far off trail do people go to make observations?</h3>
+</div>
+<div id="inaturalist-data-analysis-in-r" class="section level2">
+<h2>2) iNaturalist data analysis in R</h2>
+<div id="i-am-interested-in-using-inaturalist-data-to-understand-distribution-of-species-and-what-species-are-being-represented-by-citizen-scientists.-there-is-an-overwhelming-amount-of-data-collected-everyday.-learning-ways-to-utilize-this-data-is-important.-ive-been-working-on-different-ways-to-visualize-inat-observations.-below-are-some-preliminary-results.-i-would-like-to-understand-if-invasive-species-or-native-species-are-posted-more-often-and-where-these-observations-occur-are-there-more-observations-near-homes-or-protected-lands-how-far-off-trail-do-people-go-to-make-observations" class="section level4">
+<h4>I am interested in using iNaturalist data to understand distribution of species and what species are being represented by citizen scientists. There is an overwhelming amount of data collected everyday. Learning ways to utilize this data is important. I’ve been working on different ways to visualize iNat observations. Below are some preliminary results. I would like to understand if invasive species or native species are posted more often and where these observations occur; are there more observations near homes or protected lands? how far off trail do people go to make observations?</h4>
+</div>
+<div id="top-30-most-common-plants" class="section level3">
+<h3>Top 30 most common plants</h3>
 <div id="top-30-most-common-observations-for-10-years-of-inaturalist-data-separated-by-native-and-invasive.-it-appears-that-many-of-top-observed-plants-are-abundant-species-throughout-most-of-connecticut-and-mostly-deer-resistant-species." class="section level4">
 <h4>Top 30 most common observations for 10 years of iNaturalist data, separated by native and invasive. It appears that many of top observed plants are abundant species throughout most of Connecticut and mostly deer-resistant species.</h4>
 <p><img src="images/Inat_30.jpeg" width="500px" style="padding:10px" /> <br></p>
 </div>
-<div id="observations-occured-throughout-most-of-the-state-during-this-10-year-period-with-no-apparent-trend-yet-of-invasive-vs-native-plants.-of-interest-to-me-is-the-abundance-of-observations-around-specific-areas-such-as-the-uconn-campus-in-the-northeastern-part-of-the-state." class="section level4">
-<h4>Observations occured throughout most of the state during this 10 year period, with no apparent trend yet of invasive vs native plants. Of interest to me is the abundance of observations around specific areas, such as the UConn campus in the northeastern part of the state.</h4>
+</div>
+<div id="native-vs-invasive-observations" class="section level3">
+<h3>Native vs Invasive Observations</h3>
+<div id="occured-throughout-most-of-the-state-during-this-10-year-period-with-no-apparent-trend-yet-of-invasive-vs-native-plants.-of-interest-to-me-is-the-abundance-of-observations-around-specific-areas-such-as-the-uconn-campus-in-the-northeastern-part-of-the-state." class="section level4">
+<h4>occured throughout most of the state during this 10 year period, with no apparent trend yet of invasive vs native plants. Of interest to me is the abundance of observations around specific areas, such as the UConn campus in the northeastern part of the state.</h4>
 <p><img src="images/inatCT.jpeg" width="600px" style="padding:10px" /></p>
 </div>
 </div>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -403,6 +494,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
