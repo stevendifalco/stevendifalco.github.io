@@ -27,7 +27,7 @@ navbar:
       href: https://twitter.com/stevendifalco
     - text: "GitHub"
       icon: fa-github
-      href: https://github.com/stevendifalco/TidyTuesday target="_blank"  
+      href: https://github.com/stevendifalco/TidyTuesday
     - text: "Contact me"
       icon: fa-envelope-o
       href: mailto:stevendifalco@gmail.com
