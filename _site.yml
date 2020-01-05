@@ -22,9 +22,6 @@ navbar:
     - text: "iNaturalist"
       icon: fa-envira 
       href: https://www.inaturalist.org/observations/sdifalco
-    - text: "Twitter"
-      icon: fa-twitter
-      href: https://twitter.com/stevendifalco
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/stevendifalco/TidyTuesday
@@ -33,5 +30,5 @@ navbar:
       href: mailto:stevendifalco@gmail.com
 output:
   html_document:
-    theme: flatly
+    theme: darkly
     css: style.css

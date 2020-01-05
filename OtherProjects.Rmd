@@ -5,7 +5,6 @@ output:
     toc: true
     toc_float: true
 ---
-
 ## 1) Bokeh- Python package
 ####Using the Bokeh package in Python to visualize local trails and protected open space parcels. These are dynamic maps which can be zoomed into and scrolled around. Hovering over any given trail will provide the property name. Open space parcels will reveil parcel ID when hovered over.
 
