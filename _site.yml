@@ -30,5 +30,5 @@ navbar:
       href: mailto:stevendifalco@gmail.com
 output:
   html_document:
-    theme: darkly
+    theme: flatly
     css: style.css
