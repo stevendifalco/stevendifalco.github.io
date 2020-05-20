@@ -13,7 +13,9 @@ knitr::include_graphics("images/SurveyCrew.jpg")
 [Interview with Naturally@UConn](https://naturally.uconn.edu/2019/06/26/meet-graduate-student-steven-difalco/#)
 
 <br>
-<img id ="planting" src= "images/treeplanting.png" style="float:left; padding:10px", width ="500px" height ="auto">
+```{r echo=FALSE, out.extra='style="float:left; padding:10px"', out.width="500px"}
+knitr::include_graphics("images/treeplanting.png")
+```
 
 <br>
 
@@ -21,7 +23,9 @@ knitr::include_graphics("images/SurveyCrew.jpg")
 #### I am interested in the way exotic invasive species affect local ecosystems, and best management practices to mitigate their impacts. One of the most important parts of land management is the reestablishment of native plant populations. Restoring and maintaining native plant populations is important for helping provide habitat for our native pollinators
 
 <br><br><br><br>
-<img id ="planting" src= "images/monarda.jpg" style="float:left; padding:10px", width ="300px" height ="auto">
+```{r echo=FALSE, out.extra='style="float:left; padding:10px"', out.width="300px"}
+knitr::include_graphics("images/monarda.jpg")
+```
 
 <br><br><br><br>
 
@@ -30,11 +34,11 @@ knitr::include_graphics("images/SurveyCrew.jpg")
 
 
 <br><br><br><br><br><br><br><br><br><br>
-
-<img id ="planting" src= "images/andrea_paulaSharpe.jpg" style="float:left; padding:10px", width ="500px" height ="auto">
-
+```{r echo=FALSE, out.extra='style="float:left; padding:10px"', out.width="500px"}
+knitr::include_graphics("images/Andrea_PaulaSharpe.jpg")
+```
 <br><br><br><br><br><br><br><br><br><br><br>
 
 ### Native pollinators 
-###(photo by Paula Sharpe from Rockefeller Preserve)
+### (photo by Paula Sharpe from Rockefeller Preserve)
 #### My management style has attempted to favor species which provide habitat and food for both generalists and specialist pollinator species. Spring beauty andrena bees only use spring beauty flowers so it's important to make sure to encourage and protect this plant species. Understanding what species are found where, and having a botanical record of occurances, is something important to have.
